@@ -4,6 +4,8 @@
         <meta charset="utf-8">
          <title>Dry Oar Boating</title>
          <style>
+             @import url(https://fonts.googleapis.com/css?family=Pacifico);
+             
              #content {
                  
                  width: 80%;
@@ -34,23 +36,45 @@
                  color: 
              }
              
+             #middle-row {
+                 padding: 15px   
+             }
+                   
+             section {
+                 padding: 15px;
+             }
+             
+             h1,
+             h2, h3, h4,h5,h6 {
+                 color: cadetblue;
+                 font-family: "Pacifico", "Palatino Linotype"
+             }
              
              h2 {
-                 color:cadetblue
+                 line-height: 1.2
+                 margin-bottom: 2 em;
+             }
+             
+             p {
+                 line-height: 1.5;
              }
              
              #bottom-row {
                  text-align: center;
-                 width: 70%;
+                 width: 60%;
                  margin: auto;
              }
              
-             
+             footer {
+                background-color: #396E94;
+                color: #E7C24F;
+             }
+         
         </style>
     </head>
     
     <body>
-        <div id="content" >
+        <div id="content">
             <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="dry oar boating logo">
             <nav>
                 <ul>
@@ -62,28 +86,40 @@
                 </ul>
             </nav>
         
-            <img src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="wide shot of the salmon river">
-        
+        <main>      
+            <div id="banner"><img src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="wide shot of the salmon river"></div>
+            
             <section id="top-row">
-            <h2>We run Rivers to relax.</h2>
-            <p>We believe that there is nothing like a river trip for <em>relaxing</em>. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the <strong>beauty</strong> that surrounds the rivers we love.</p>
-            <img src="http://brothert.net/dryoar/images/river-evening.jpg" alt="peaceful evening shot of a river">
+                <div class="leftcol">
+                    <h2>We run Rivers to relax.</h2>
+                    <p>We believe that there is nothing like a river trip for <em>relaxing</em>. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the <strong>beauty</strong> that surrounds the rivers we love.</p>
+                </div>
+                <div class="rightcol">
+                    <img src="http://brothert.net/dryoar/images/river-evening.jpg" alt="peaceful evening shot of a river">
+                </div>
             </section>
         
             <section id="middle-row">
-            <img src="http://brothert.net/dryoar/images/river-portrait.jpg" alt="narrow canyon with river">
-            <h2>We run Whitewater for the Rush.</h2>
-            <p>That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
+                <div class="leftcol"><img src="http://brothert.net/dryoar/images/river-portrait.jpg" alt="narrow canyon with river"></div>
+                <div class="rightcol">
+                    <h2>We run Whitewater for the Rush.</h2>
+                    <p>That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
+                </div>
             </section>
-        
+            
             <section id="bottom-row">
-            <h2>Come Run with us!</h2>
-            <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
+                <h2>Come Run with us!</h2>
+                <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
             </section>
-src="facebook.png"
-src="pinterest.png"
-src="twitter.png"
+        </main>
+            
+        <footer id="social media">
+            <a target"_blank" href="https://www.facebook.com"><img src="facebook.png" alt="Facebook" width="50"/></a>
+            <a target"_blank" href="https://www.pinterest.com"><img src="pinterest.png" alt="Pinterest" width="50"/></a>
+            <a target"_blank" href="https://www.twitter.com"><img src="twitter.png" alt="Twitter" width="50"/></a>
+            
             <p>&copy; 2016 Dry Oar || Rachel Watkins </p> 
+        </footer>
         </div>
     </body>
 </html>
