@@ -1,0 +1,128 @@
+           @import url(https://fonts.googleapis.com/css?family=Pacifico);
+             
+             body {
+                 font-family: Helvetica, Arial, sans-serif;
+             }
+             
+             h1,
+             h2, h3, h4,h5,h6 {
+                 color: cadetblue;
+                 font-family: "Pacifico", "Palatino Linotype"
+             }
+
+             #content {
+                 
+                 width: 90%;
+                 max-width: 960px;
+                 margin: 0 auto;
+             }
+                          
+             nav {
+                 background-color:aliceblue;
+                 color: black
+                 font-size: 1.1em;
+                 height: 3em;
+             }
+             
+             
+             img {
+                 max-width: 100%
+             }
+                
+             nav > ul {
+                 list-style-type: none;
+                 display: flex;
+                 justify-content: space-around;
+                 flex-flow: row wrap;
+    
+             }
+            
+             nav li {
+                 flex: 1 0 6em
+             }
+             nav a:link, nav a:visited {
+                 color: white
+                 text-decoration: none;
+             }
+             
+             nav a:hover {
+                 text-decoration: underline;
+             }
+             
+             
+             a {
+                 color:aliceblue
+                 text-decoration: none;
+             }
+             #top-row {
+    
+             }
+             
+             
+             #middle-row {
+                 background-color:cornsilk
+                 color: 
+             }
+             
+             #middle-row {
+                 padding: 15px   
+             }
+                   
+             section {
+                 padding: 1em;
+                 clear: both;
+                 overflow: auto;
+             }
+
+             #banner img{
+                 width: 100%
+             }
+        
+             h2 {
+                 line-height: 1.2
+                 margin-bottom: 2 em;
+             }
+             
+             p {
+                 line-height: 1.5;
+             }
+             
+             #top-row,
+             #middle-row{
+                 display: flex;
+                 width: 48%
+                      
+             }
+             #top-row img,
+             #middle-row img{
+                 width: 100%
+             }
+
+             #middle-row{
+                 width: 48%
+             }
+
+             .align-right{
+                 text-align: right
+             }
+
+             #bottom-row{
+                 width: 48%
+                 margin: auto;
+                 text-align: center;
+                 padding: ;
+             }
+             
+             footer {
+                 background-color: beige;
+                 color: aliceblue;
+                 padding: 5em 0;
+             }
+
+             .social{
+                 float: left;
+             }
+
+             .social img{
+                 width: 48px;
+             }  
