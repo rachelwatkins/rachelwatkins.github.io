@@ -99,7 +99,7 @@
              #top-row,
              #middle-row{
                  display: flex;
-                 width: 50%
+                 width: 48%
                       
              }
 
@@ -108,9 +108,6 @@
                  width: 100%
              }
 
-             #middle-row{
-                 width: 50%
-             }
 
              .align-right{
                  text-align: right
